@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '@/src/components/header/Header'
 import { Inter } from 'next/font/google'
+import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -17,10 +18,8 @@ export default function Home({ data }) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
-      <Header data={data} />
-      <div className='flex flex-col md:flex-row'>
-        <div className='md:w-1/2'></div>
-        <div className='md:w-1/2'></div>
+      <div className='flex justify-center items-center text-center h-screen bg-tuatara text-white text-4xl'>
+        This Website Is Under Construction.
       </div>
     </>
   )
