@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Header from '@/src/components/header/header'
+import Header from '../src/components/home/home-page';
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
