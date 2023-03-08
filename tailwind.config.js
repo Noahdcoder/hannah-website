@@ -12,9 +12,11 @@ module.exports = {
         rawSienna: "#cd8941",
         naturalGray: "#8c8c8a",
         gray: "#848484",
+        whiteGray: "#e6e6e6",
         white: "#fff",
         black: "#000",
-        lightGray: "##cccccc"
+        lightGray: "##cccccc",
+        red: "#FF0000"
       }
     },
   },

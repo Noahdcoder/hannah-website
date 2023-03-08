@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { FaTimes,  } from 'react-icons/fa';
+import { FaTimes } from 'react-icons/fa';
 import { links, social } from 'data/data';
 import { useState } from 'react'
 
@@ -14,7 +14,7 @@ export default function Header({ data }) {
       <Link href="/" legacyBehavior>
         <a>
           <Image
-            src="/images/general/hannah-icon.png"
+            src="/images/general/hannah-transparent.png"
             alt="logo"
             width={100}
             height={100}
@@ -41,7 +41,7 @@ export default function Header({ data }) {
       >
         <div className="flex justify-between">
           <Image
-            src="/images/general/hannah-icon.png"
+            src="/images/general/hannah-transparent.png"
             alt="logo"
             width={100}
             height={100}
@@ -89,4 +89,13 @@ export default function Header({ data }) {
       </ul>
     </nav>
   );
+}
+
+export async function getStaticProps() {
+  const { nav_links } = await import("/data/data.json");
+  return {
+    props: {
+      data: nav_links
+    },
+  };
 }

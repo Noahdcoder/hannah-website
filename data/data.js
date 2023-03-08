@@ -69,3 +69,24 @@ export const social = [
       color: '#e4405f'
     }
   ];
+
+  export const shareSocial = [
+    {
+      id: 1,
+      url: 'https://www.facebook.com/sharer/sharer.php?u=https://hannahaghedo.com/blog/',
+      icon: <FaFacebook />,
+      color: '#1877f2'
+    },
+    {
+      id: 2,
+      url: 'https://twitter.com/intent/tweet?text=https://hannahaghedo.com/blog/',
+      icon: <FaTwitter />,
+      color: '#1da1f2'
+    },
+    {
+      id: 3,
+      url: 'https://www.linkedin.com/sharing/share-offsite/?url=https://hannahaghedo.com/blog/',
+      icon: <FaLinkedin />,
+      color: '#0e76a8'
+    }
+  ];
