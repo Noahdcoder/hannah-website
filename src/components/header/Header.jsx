@@ -1,14 +1,14 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import { FaTimes } from 'react-icons/fa';
-import { links, social } from 'data/data';
-import { useState } from 'react'
+import Link from "next/link";
+import Image from "next/image";
+import { FaTimes } from "react-icons/fa";
+import { links, social } from "data/data";
+import { useState } from "react";
 
 export default function Header({ data }) {
   const [isSidebarOpen, SetSidebar] = useState(false);
   const toggleNavBar = () => {
     SetSidebar(!isSidebarOpen);
-  }
+  };
   return (
     <nav className="flex justify-between px-8 py-4 bg-tuatara text-rawSienna shadow-2xl md:px-32">
       <Link href="/" legacyBehavior>
@@ -40,12 +40,16 @@ export default function Header({ data }) {
         }`}
       >
         <div className="flex justify-between">
-          <Image
-            src="/images/general/hannah-transparent.png"
-            alt="logo"
-            width={100}
-            height={100}
-          />
+          <Link href="/" legacyBehavior>
+            <a>
+              <Image
+                src="/images/general/hannah-transparent.png"
+                alt="logo"
+                width={100}
+                height={100}
+              />
+            </a>
+          </Link>
           <button className="text-4xl" onClick={toggleNavBar}>
             <FaTimes />
           </button>
@@ -95,7 +99,7 @@ export async function getStaticProps() {
   const { nav_links } = await import("/data/data.json");
   return {
     props: {
-      data: nav_links
+      data: nav_links,
     },
   };
 }
