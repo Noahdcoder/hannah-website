@@ -238,7 +238,8 @@ export default function Home({ data, services, blogs }) {
               Work with me
             </h4>
             <p className="text-lg text-gray">
-              I help individuals and organisations achieve their legal goals.
+              I help individuals and organisations achieve their legal &
+              business goals.
             </p>
             <div className="flex justify-center">
               <Link href="/contact" legacyBehavior>

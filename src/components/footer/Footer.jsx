@@ -110,8 +110,8 @@ export default function Footer({ services }) {
           <p className="text-slate-50">
             With a focus on Advisory & Legal support, Legal Due Diligence and
             Compliance, Intellectual Property Protection, Government Permit &
-            Approval, I am here to ensure that your legal needs are met
-            efficiently and effectively.
+            Approval, I am here to ensure that your legal & business needs are
+            met efficiently and effectively.
           </p>
         </div>
         <div className="flex flex-col space-y-4">
