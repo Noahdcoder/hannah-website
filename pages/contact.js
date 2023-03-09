@@ -93,8 +93,8 @@ export default function Contact({ data, services }) {
           <h2 className="text-2xl font-bold">Get in touch</h2>
           <hr className="border-rawSienna" />
           <p className="text-lg">
-            We value your feedback. Kindly leave us a message and we will
-            respond promptly.
+            I value your feedback. Kindly leave me a message and I will respond
+            promptly.
           </p>
           <form className="bg-whiteGray p-6 rounded-lg">
             <div className="flex mb-4">
@@ -219,9 +219,9 @@ export default function Contact({ data, services }) {
           <div className="text-rawSienna text-4xl">
             <FaLocationArrow />
           </div>
-          <p className="text-2xl">Coventry, UK & Lagos, Nigeria</p>
+          <p className="text-2xl">Available to work globally</p>
           <div className="flex-col">
-            <p className="text-xl mb-4">Follow us on :</p>
+            <p className="text-xl mb-4">Follow me on :</p>
             <div className="flex justify-center">
               <a href="https://facebook.com/aghedo.hannah">
                 <div className="text-xl text-rawSienna font-bold mr-8 hover:text-tuatara">

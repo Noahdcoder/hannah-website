@@ -104,13 +104,13 @@ export default function Footer({ services }) {
             About
           </h3>
           <p className="text-slate-50">
-            At Hannah Aghedo, we're committed to providing exceptional legal
-            support to individuals and businesses alike.
+            Hannah Aghedo is committed to providing exceptional legal and
+            business support to individuals and businesses alike.
           </p>
           <p className="text-slate-50">
             With a focus on Advisory & Legal support, Legal Due Diligence and
             Compliance, Intellectual Property Protection, Government Permit &
-            Approval, we're here to ensure that your legal needs are met
+            Approval, I am here to ensure that your legal needs are met
             efficiently and effectively.
           </p>
         </div>
@@ -118,14 +118,12 @@ export default function Footer({ services }) {
           <h3 className="border-l-4 border-rawSienna text-white font-bold pl-4">
             Contact Info
           </h3>
-          <p className="text-slate-50">
-            We are located in Lagos, Nigeria & Coventry, UK.
-          </p>
+          <p className="text-slate-50">I am available to work globally.</p>
           <div className="flex space-x-4">
             <div className="text-white border-2 border-rawSienna p-2">
               <FaSearchLocation />
             </div>
-            <p className="text-slate-50">Coventry, UK & Lagos, Nigeria</p>
+            <p className="text-slate-50">Global</p>
           </div>
           <div className="flex space-x-4">
             <div className="text-white border-2 border-rawSienna p-2">

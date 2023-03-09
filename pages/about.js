@@ -66,39 +66,54 @@ export default function About({ data, services }) {
               Welcome To My Website
             </h2>
             <p>
-              At <span className="text-rawSienna font-bold">Hannah Aghedo</span>
-              , we're committed to providing exceptional legal support to
-              individuals and businesses alike. Our team of experienced lawyers
-              is dedicated to helping our clients navigate complex legal
-              challenges with ease and confidence.
+              Welcome to my website, my name is{" "}
+              <span className="text-rawSienna font-bold">
+                Hannah Eghonghon Aghedo.{" "}
+              </span>
+              With over a decade of being a Transactional Lawyer, Investment,
+              Business Strategist and Corporate Trainer. I help business interns
+              and executives acquire short-term and long-term training to refine
+              their business leadership and management skills befitting of a
+              present-day need, without physical interaction and in line with
+              sustainable economy.
             </p>
             <p>
-              With a focus on Advisory & Legal support, Legal Due Diligence and
-              Compliance, Intellectual Property Protection, Government Permit &
-              Approval, we're here to ensure that your legal needs are met
-              efficiently and effectively.
+              <span className="text-rawSienna font-bold">Early days-</span>
+              <br /> Born on the 22nd day of March to ENGR & Mrs Abraham Aghedo,
+              Hannah had her first real exposure in Nigeria’s foremost single
+              sex school for girls, Queens College, Lagos, where she learned
+              that real pursuit in life is akin to passion and realistic goals.
             </p>
             <p>
-              Our attorneys have a proven track record of success in
-              representing clients across a wide range of industries. Whether
-              you're just starting out or you're a well-established company, we
-              have the experience and knowledge to help you succeed.
+              <span className="text-rawSienna font-bold">Career-</span>A Lawyer
+              exploring extreme areas of the law and has sat over many
+              arbitration matters as an Arbitration Specialist. As a commercial
+              law expert, she has gained prominence in the corporate ladder and
+              is currently on a mission to support dwindling economies thrive
+              through delivering sessions on Capital Projects and Capital
+              project funds management within Africa.
             </p>
             <p>
-              We understand that legal issues can be daunting, but we're here to
-              make the process as smooth and stress-free as possible. We take
-              the time to listen to your needs and concerns, and we work
-              tirelessly to develop tailored solutions that meet your unique
-              needs.
+              <span className="text-rawSienna font-bold">Education-</span>
+              <br />A Graduate of the Faculty of Law Ambrose Alli University,
+              Edo State where she bagged her LL.B degree with a second class
+              upper division sparking up intuitive calculations about how
+              someone so daring could combine tough leadership roles and
+              academics in a single stroke. After her call to the Nigerian Bar
+              as a Barrister of the Supreme Court of Nigeria and an LLM degree
+              in Commercial Law from Ahmadu Bello University, Kaduna State, her
+              professional journey has been far from lopsided as she has berthed
+              through areas in the legal profession that are gradually taking
+              toll. Currently, an MBA student of the Prestigious Coventry
+              University in England.
             </p>
             <p>
-              At <span className="text-rawSienna font-bold">Hannah Aghedo</span>
-              , we believe in building long-term relationships with our clients.
-              We strive to provide exceptional service and support throughout
-              the entire legal process, from initial consultation to final
-              resolution. Our team is always available to answer your questions
-              and address your concerns, and we're committed to keeping you
-              informed every step of the way.
+              When I am not assisting small, medium enterprises known as the
+              SMEs with Roadmaps to navigate through their business strategies
+              and practicability, I engage assiduously with civil society,
+              non-profit organizations, and religious institutions through
+              volunteering as a way of creating lasting change across the globe
+              bearing in mind the essence of community development.
             </p>
             <p>
               If you're looking for experienced, reliable legal support, look no
@@ -111,10 +126,10 @@ export default function About({ data, services }) {
       </main>
       <div className="bg-white space-y-4 p-8">
         <h4 className="text-center text-2xl text-rawSienna font-bold">
-          Our Pledge
+          Pledge
         </h4>
         <h5 className="text-center text-lg text-rawSienna font-bold">
-          At Hannah Aghedo, we guarantee the following:
+          I Hannah Aghedo, guarantees the following:
         </h5>
         <div className="grid grid-cols-1 gap-x-0 md:grid-cols-3 md:gap-x-4">
           <div className="slide rounded-lg shadow-lg">
@@ -127,11 +142,11 @@ export default function About({ data, services }) {
               className="w-full h-64 rounded-t-lg"
             />
             <p className="p-4">
-              At Hannah Aghedo, meeting deadlines is of the utmost importance.
-              We understand that our clients rely on us to deliver high-quality
-              work on time, and we take this responsibility very seriously. To
-              ensure that we are able to meet deadlines consistently, we have
-              put several measures in place.
+              Meeting deadlines is of the utmost importance. I understand that
+              my clients rely on me to deliver high-quality work on time, and I
+              take this responsibility very seriously. To ensure that I am able
+              to meet deadlines consistently, I have put several measures in
+              place.
             </p>
           </div>
           <div className="slide rounded-lg shadow-lg">
@@ -144,10 +159,10 @@ export default function About({ data, services }) {
               className="w-full h-64 rounded-t-lg"
             />
             <p className="p-4">
-              At Hannah Aghedo, we pride ourselves on offering competitive rates
-              to our clients. We understand that cost is an important factor for
-              businesses when selecting a service provider, and we work hard to
-              ensure that our rates are fair and reasonable.
+              I pride myself on offering competitive rates to my clients. I
+              understand that cost is an important factor for businesses when
+              selecting a service provider, and I work hard to ensure that my
+              rates are fair and reasonable.
             </p>
           </div>
           <div className="slide rounded-lg shadow-lg">
@@ -160,10 +175,10 @@ export default function About({ data, services }) {
               className="w-full h-64 rounded-t-lg"
             />
             <p className="p-4">
-              At Hannah Aghedo, client satisfaction is our top priority. We
-              understand that our clients rely on us to deliver high-quality
-              work that meets their needs and expectations, and we are committed
-              to exceeding those expectations every time.
+              Client satisfaction is my top priority. I understand that my
+              clients rely on me to deliver high-quality work that meets their
+              needs and expectations, and I are committed to exceeding those
+              expectations every time.
             </p>
           </div>
         </div>
