@@ -195,13 +195,18 @@ export default function Footer({ services }) {
           </form>
           <div className="flex flex-col space-y-4">
             <h3 className="border-l-4 border-rawSienna text-white font-bold pl-4">
-              Follow Us
+              Follow me or reach out.
             </h3>
             <div className="flex space-x-4 text-slate-50">
               {social.map((item) => {
                 const { id, url, icon } = item;
                 return (
-                  <a key={id} href={url} className="hover:text-rawSienna">
+                  <a
+                    key={id}
+                    href={url}
+                    target="_blank"
+                    className="hover:text-rawSienna"
+                  >
                     {icon}
                   </a>
                 );

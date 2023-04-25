@@ -100,7 +100,7 @@ export default function About({ data, services }) {
           </div>
           <div className="p-8 space-y-4 text-lg md:block md:w-1/2">
             <h2 className="text-center font-bold text-4xl">
-              Welcome To My Website
+              Enter The World Of Hannah Aghedo
             </h2>
             <p>
               Welcome to my website, my name is{" "}
@@ -116,33 +116,21 @@ export default function About({ data, services }) {
             </p>
             <p>
               <span className="text-rawSienna font-bold">Early days-</span>
-              <br /> Born on the 22nd day of March to ENGR & Mrs Abraham Aghedo,
-              Hannah had her first real exposure in Nigeria’s foremost single
-              sex school for girls, Queens College, Lagos, where she learned
-              that real pursuit in life is akin to passion and realistic goals.
+              <br /> Born on the 22nd day of March, I had my first real exposure
+              in Nigeria’s foremost single sex school for girls, Queens College,
+              Lagos, where I learned that real pursuit in life is akin to
+              passion and realistic goals. I grew up as the only girl child in
+              the family.
             </p>
             <p>
-              <span className="text-rawSienna font-bold">Career-</span>A Lawyer
-              exploring extreme areas of the law and has sat over many
-              arbitration matters as an Arbitration Specialist. As a commercial
-              law expert, she has gained prominence in the corporate ladder and
-              is currently on a mission to support dwindling economies thrive
-              through delivering sessions on Capital Projects and Capital
-              project funds management within Africa.
-            </p>
-            <p>
-              <span className="text-rawSienna font-bold">Education-</span>
-              <br />A Graduate of the Faculty of Law Ambrose Alli University,
-              Edo State where she bagged her LL.B degree with a second class
-              upper division sparking up intuitive calculations about how
-              someone so daring could combine tough leadership roles and
-              academics in a single stroke. After her call to the Nigerian Bar
-              as a Barrister of the Supreme Court of Nigeria and an LLM degree
-              in Commercial Law from Ahmadu Bello University, Kaduna State, her
-              professional journey has been far from lopsided as she has berthed
-              through areas in the legal profession that are gradually taking
-              toll. Currently, an MBA student of the Prestigious Coventry
-              University in England.
+              <span className="text-rawSienna font-bold">Career-</span>
+              <br />I am a Lawyer & Business Expert exploring extreme areas of
+              the law and business and have sat over many arbitration matters as
+              an Arbitration Specialist. As a commercial law expert, I have
+              gained prominence in the corporate ladder and I'm currently on a
+              mission to support dwindling economies thrive through delivering
+              sessions on Capital Projects and Capital project funds management
+              within Africa.
             </p>
             <p>
               When I am not assisting small, medium enterprises known as the
@@ -154,9 +142,24 @@ export default function About({ data, services }) {
             </p>
             <p>
               If you're looking for experienced, reliable legal support, look no
-              further than Hannah Aghedo. Contact us today to schedule a
-              consultation and learn more about how we can help you achieve your
-              goals.
+              further than{" "}
+              <span className="text-rawSienna font-bold">Hannah Aghedo</span>.
+              Contact me today to schedule a consultation and learn more about
+              how we can help you achieve your goals.
+            </p>
+            <p>
+              <span className="text-rawSienna font-bold">Education-</span>
+              <br />A Graduate of the Faculty of Law Ambrose Alli University,
+              Edo State where I bagged my LL.B degree with a second class upper
+              division sparking up intuitive calculations about how someone so
+              daring can combine tough leadership roles and academics in a
+              single stroke. After my call to the Nigerian Bar as a Barrister of
+              the Supreme Court of Nigeria and an LLM degree in Commercial Law
+              from Ahmadu Bello University, Kaduna State, my professional
+              journey has been far from lopsided as I have berthed through areas
+              in the legal profession that are gradually taking toll. Currently,
+              I am an MBA student of the Prestigious Coventry University in
+              England.
             </p>
           </div>
         </div>
@@ -166,7 +169,7 @@ export default function About({ data, services }) {
           Pledge
         </h4>
         <h5 className="text-center text-lg text-rawSienna font-bold">
-          I Hannah Aghedo, guarantees the following:
+          I, Hannah Aghedo guarantees the following:
         </h5>
         <div className="grid grid-cols-1 gap-x-0 md:grid-cols-3 md:gap-x-4">
           <div className="slide rounded-lg shadow-lg">
@@ -214,7 +217,7 @@ export default function About({ data, services }) {
             <p className="p-4">
               Client satisfaction is my top priority. I understand that my
               clients rely on me to deliver high-quality work that meets their
-              needs and expectations, and I are committed to exceeding those
+              needs and expectations, and I am committed to exceeding those
               expectations every time.
             </p>
           </div>

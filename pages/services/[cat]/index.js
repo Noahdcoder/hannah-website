@@ -132,7 +132,7 @@ export default function SingleService({ data, services, nav_links }) {
         <Link href="/contact" legacyBehavior>
           <a>
             <button className="bg-rawSienna hover:bg-tuatara text-white font-bold py-2 px-4 rounded">
-              Contact Us
+              Contact Me
             </button>
           </a>
         </Link>
