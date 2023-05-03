@@ -7,9 +7,7 @@ export default function HomeWelcome() {
         <img src="images/general/hannah-picture.jpg" />
       </div>
       <div className="hidden p-8 space-y-4 text-lg md:block md:w-1/2">
-        <h2 className="text-center font-bold text-4xl">
-          Welcome To My Website
-        </h2>
+        <h2 className="text-center font-bold text-4xl">Enter Hannah's World</h2>
         <p>
           Welcome to my website, my name is{" "}
           <span className="text-rawSienna font-bold">
