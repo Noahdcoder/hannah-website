@@ -83,6 +83,10 @@ export default function Home({ data, services, blogs }) {
           content="https://www.hannahaghedo.com/images/general/hannah-picture.jpg"
         ></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="google-site-verification"
+          content="Ch8Jlee8_5P6vE7TzdZZS7hSE3iU-yfgogi0AnKu27Q"
+        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
