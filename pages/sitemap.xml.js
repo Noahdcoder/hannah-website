@@ -23,12 +23,6 @@ function generateSiteMap(pages) {
        <url>
          <loc>https://hannahaghedo.com/contact</loc>
        </url>
-       <url>
-         <loc>https://chelseabing.com/privacy-policy</loc>
-       </url>
-       <url>
-         <loc>https://chelseabing.com/terms-of-service</loc>
-       </url>
        ${pages
          .map((name) => {
            return `
