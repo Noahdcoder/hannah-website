@@ -179,7 +179,7 @@ export default function Home({ data, services, blogs }) {
                   <img src={image} className="h-48 w-full" />
                   <div className="px-8 pb-8 space-y-4">
                     <h4 className="text-2xl font-bold text-gray">{title}</h4>
-                    <p>
+                    <p className="text-lg">
                       {`${paragraphs[0].content.substring(0, 200)} ...more`}
                     </p>
                     <div className="flex justify-center">

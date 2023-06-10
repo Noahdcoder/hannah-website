@@ -18,7 +18,10 @@ export default function HomeServices({ services, isVisible }) {
               <img src={image} className="h-48 w-full" />
               <div className="flex flex-col justify-between px-8 pb-8 space-y-4">
                 <h4 className="flex-1 text-2xl font-bold text-gray">{title}</h4>
-                <p>{`${paragraphs[0].content.substring(0, 200)} ...more`}</p>
+                <p className="text-lg">{`${paragraphs[0].content.substring(
+                  0,
+                  200
+                )} ...more`}</p>
                 <div className="flex justify-center">
                   <Link href={`/services/${id}`} legacyBehavior>
                     <a>
@@ -36,7 +39,7 @@ export default function HomeServices({ services, isVisible }) {
       <div className="flex justify-center">
         <Link href={`/services`} legacyBehavior>
           <a>
-            <button className="bg-tuatara text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out">
+            <button className="bg-rawSienna mt-8 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out">
               See All Services Provided By Hannah Aghedo
             </button>
           </a>

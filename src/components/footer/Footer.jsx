@@ -97,7 +97,7 @@ export default function Footer({ services }) {
     );
   }
   return (
-    <footer className="bg-tuatara">
+    <footer className="bg-tuatara text-lg">
       <div className="grid grid-cols-1 gap-y-4 gap-x-0 p-8 md:grid-cols-4 md:gap-y-0">
         <div className="flex flex-col space-y-4">
           <h3 className="border-l-4 border-rawSienna text-white font-bold pl-4">

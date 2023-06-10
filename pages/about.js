@@ -181,7 +181,7 @@ export default function About({ data, services }) {
               alt="Card image"
               className="w-full h-64 rounded-t-lg"
             />
-            <p className="p-4">
+            <p className="p-4 text-lg">
               Meeting deadlines is of the utmost importance. I understand that
               my clients rely on me to deliver high-quality work on time, and I
               take this responsibility very seriously. To ensure that I am able
@@ -198,7 +198,7 @@ export default function About({ data, services }) {
               alt="Card image"
               className="w-full h-64 rounded-t-lg"
             />
-            <p className="p-4">
+            <p className="p-4 text-lg">
               I pride myself on offering competitive rates to my clients. I
               understand that cost is an important factor for businesses when
               selecting a service provider, and I work hard to ensure that my
@@ -214,7 +214,7 @@ export default function About({ data, services }) {
               alt="Card image"
               className="w-full h-64 rounded-t-lg"
             />
-            <p className="p-4">
+            <p className="p-4 text-lg">
               Client satisfaction is my top priority. I understand that my
               clients rely on me to deliver high-quality work that meets their
               needs and expectations, and I am committed to exceeding those
