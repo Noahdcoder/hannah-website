@@ -27,7 +27,7 @@ function generateSiteMap(pages) {
          .map((name) => {
            return `
          <url>
-             <loc>${`${EXTERNAL_DATA_URL}/${name}`}</loc>
+             <loc>${`https://hannahaghedo.com/${name}`}</loc>
          </url>
        `;
          })
