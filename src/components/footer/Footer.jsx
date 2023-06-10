@@ -142,7 +142,7 @@ export default function Footer({ services }) {
           <h3 className="border-l-4 border-rawSienna text-white font-bold pl-4">
             Services
           </h3>
-          <div className="flex flex-col text-slate-50">
+          <div className="flex flex-col space-y-4 text-slate-50">
             {services.map((service) => {
               return (
                 <div key={service.id} className="flex space-x-4">
@@ -197,7 +197,7 @@ export default function Footer({ services }) {
             <h3 className="border-l-4 border-rawSienna text-white font-bold pl-4">
               Follow me or reach out.
             </h3>
-            <div className="flex space-x-4 text-slate-50">
+            <div className="flex space-x-8 text-slate-50">
               {social.map((item) => {
                 const { id, url, icon } = item;
                 return (
