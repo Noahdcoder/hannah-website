@@ -11,6 +11,18 @@ function generateSiteMap(pages) {
        <url>
          <loc>https://hannahaghedo.com/about</loc>
        </url>
+       <url>
+         <loc>https://hannahaghedo.com/blog</loc>
+       </url>
+       <url>
+         <loc>https://hannahaghedo.com/services</loc>
+       </url>
+       <url>
+         <loc>https://hannahaghedo.com/contact</loc>
+       </url>
+       <url>
+         <loc>https://hannahaghedo.com/gallery</loc>
+       </url>
        ${pages
          .map((path) => {
            return `

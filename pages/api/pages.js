@@ -7,7 +7,7 @@ export default function handler(req, res) {
   const serviceIds = services.map((service) => `services/${service.id}`);
 
   // Extract the IDs for blogs with the prefix "blogs/"
-  const blogIds = blogs.map((blog) => `blogs/${blog.id}`);
+  const blogIds = blogs.map((blog) => `blog/${blog.id}`);
 
   // Combine the serviceIds and blogIds arrays
   const ids = [...serviceIds, ...blogIds];
