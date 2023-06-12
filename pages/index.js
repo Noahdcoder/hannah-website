@@ -1,16 +1,11 @@
 import Head from "next/head";
 import Header from "@/src/components/header/Header";
 import Footer from "@/src/components/footer/Footer";
-import { Inter } from "next/font/google";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { FaRegCheckCircle } from "react-icons/fa";
 import HomeWelcome from "@/src/components/HomeWelcome";
 import HomeServices from "@/src/components/HomeServices";
-
-import Image from "next/image";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ data, services, blogs }) {
   const [isVisible, setIsVisible] = useState(false);
@@ -59,7 +54,7 @@ export default function Home({ data, services, blogs }) {
           property="og:title"
           content="Hannah Aghedo | An Outstanding Legal Practitioner"
         />
-        <meta property="og:url" content="https://hannahaghedo.com/#about" />
+        <meta property="og:url" content="https://hannahaghedo.com/" />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
