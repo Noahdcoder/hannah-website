@@ -4,55 +4,49 @@ import Footer from "@/src/components/footer/Footer";
 import Link from "next/link";
 import { shareSocial } from "@/data/data";
 import { FaBullseye } from "react-icons/fa";
+import { useRouter } from "next/router";
 
 export default function SingleBlog({ data, blogs, services, nav_links }) {
+  const router = useRouter();
   const { id, title, image, paragraphs } = data;
   const otherBlogs = blogs.filter((filter) => filter.id !== id);
+  const currentUrl = `https://hannahaghedo.com${router.asPath}`;
   return (
     <>
       <Head>
-        <title>Hannah Aghedo - {title}</title>
+        <title>{`Hannah Aghedo - ${title}`}</title>
         <meta
           name="description"
-          content="Hannah Aghedo | An Outstanding Legal Practitioner"
+          content="Amazing legal and business tips that will help you and your business succeed"
         />
         <meta charSet="utf-8" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta
-          name="title"
-          content="An Outstanding Legal Practitioner | Attorney Extra-Ordinaire"
-        />
+        <meta name="title" content={`Hannah Aghedo - ${title}`} />
         <meta
           name="keywords"
-          content="legal services, law firm, attorney, lawyer, legal advice, litigation, dispute resolution, contract law, business law, corporate law, employment law, labor law, civil litigation, criminal law, family law, estate planning, real estate law, immigration law, intellectual property law, mediation and arbitration"
+          content="legal services, business advice, corporate, law firm, attorney, lawyer, legal advice, litigation, dispute resolution, contract law, business law, corporate law, employment law, labor law, civil litigation, criminal law, family law, estate planning, real estate law, immigration law, intellectual property law, mediation and arbitration"
         />
-        <meta
-          property="og:title"
-          content="Hannah Aghedo | An Outstanding Legal Practitioner"
-        />
-        <meta property="og:url" content="https://hannahaghedo.com/#about" />
+        <meta property="og:title" content={`Hannah Aghedo - ${title}`} />
+        <meta property="og:url" content={currentUrl} />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://www.hannahaghedo.com/images/general/hannah-picture.jpg"
-        ></meta>
+          content={`https://www.hannahaghedo.com${image}`}
+        />
         <meta
           property="og:description"
-          content="Hannah Aghedo is an experienced and dedicated lawyer who is committed to providing high-quality legal services to her clients. With 10+ years of experience in several areas of law, she has a proven track record of success in handling complex legal matters. Hannah Aghedo takes a personalized approach to every case, working closely with her clients to understand their unique needs and goals. Whether you are facing a legal dispute or need guidance on a business or personal matter, Hannah Aghedo is here to help you achieve the best possible outcome."
-        ></meta>
-        <meta property="og:locale" content="en_US"></meta>
-        <meta
-          property="twitter:title"
-          content="Hannah Aghedo | Outstanding Legal Practitioner"
-        ></meta>
+          content="Amazing legal and business tips that will help you and your business succeed"
+        />
+        <meta property="og:locale" content="en_US" />
+        <meta property="twitter:title" content={`Hannah Aghedo - ${title}`} />
         <meta
           property="twitter:description"
-          content="Hannah Aghedo is an experienced and dedicated lawyer who is committed to providing high-quality legal services to her clients. With 10+ years of experience in several areas of law, she has a proven track record of success in handling complex legal matters. Hannah Aghedo takes a personalized approach to every case, working closely with her clients to understand their unique needs and goals. Whether you are facing a legal dispute or need guidance on a business or personal matter, Hannah Aghedo is here to help you achieve the best possible outcome."
-        ></meta>
+          content="Amazing legal and business tips that will help you and your business succeed"
+        />
         <meta
           property="twitter:image"
-          content="https://www.hannahaghedo.com/images/general/hannah-picture.jpg"
-        ></meta>
+          content={`https://www.hannahaghedo.com${image}`}
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
           rel="apple-touch-icon"
