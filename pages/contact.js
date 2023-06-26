@@ -114,7 +114,7 @@ export default function Contact({ data, services }) {
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <Header data={data} />
-      <main className="grid grid-cols-1 bg-white p-8 md:p-16 md:grid-cols-3">
+      <main className="grid grid-cols-1 bg-white p-8 md:p-16 lg:grid-cols-3">
         <div className="flex flex-col space-y-4 p-4 md:col-span-2">
           <h2 className="text-2xl font-bold">Get in touch</h2>
           <hr className="border-rawSienna" />

@@ -2,11 +2,11 @@ import Link from "next/link";
 
 export default function HomeWelcome() {
   return (
-    <div className="flex flex-col md:flex-row">
-      <div className="p-8 md:w-1/2">
+    <div className="flex flex-col lg:flex-row">
+      <div className="p-8 lg:w-1/2">
         <img src="images/general/hannah-picture.jpg" />
       </div>
-      <div className="hidden p-8 space-y-4 text-lg md:block md:w-1/2">
+      <div className="hidden p-8 space-y-4 text-lg lg:block lg:w-1/2">
         <h2 className="text-center font-bold text-4xl">Enter Hannah's World</h2>
         <p>
           Welcome to my website, my name is{" "}
@@ -46,7 +46,7 @@ export default function HomeWelcome() {
           </Link>
         </div>
       </div>
-      <div className="p-8 space-y-4 text-lg md:hidden">
+      <div className="p-8 space-y-4 text-lg lg:hidden">
         <h2 className="text-center font-bold text-4xl">
           Welcome To My Website
         </h2>

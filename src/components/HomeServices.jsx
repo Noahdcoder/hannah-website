@@ -5,7 +5,7 @@ export default function HomeServices({ services, isVisible }) {
   return (
     <div className="p-8 space-y-4">
       <h3 className="text-4xl font-bold text-center">Services</h3>
-      <div className="grid grid-cols-1 space-y-8 md:space-y-0 md:space-x-4 md:grid-cols-4">
+      <div className="grid grid-cols-1 space-y-8 md:space-y-0 md:space-x-4 md:gap-4 md:grid-cols-2 lg:grid-cols-4">
         {firstFourServices.map((service) => {
           const { id, title, image, paragraphs } = service;
           return (

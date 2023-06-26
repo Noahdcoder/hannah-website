@@ -88,11 +88,11 @@ export default function About({ data, services }) {
       </Head>
       <Header data={data} />
       <main className="bg-white">
-        <div className="flex flex-col md:flex-row">
-          <div className="p-8 md:w-1/2">
+        <div className="flex flex-col lg:flex-row">
+          <div className="p-8 mx-auto lg:w-1/2">
             <img src="images/general/hannah-aghedo.png" />
           </div>
-          <div className="p-8 space-y-4 text-lg md:block md:w-1/2">
+          <div className="p-8 space-y-4 text-lg lg:block lg:w-1/2">
             <h2 className="text-center font-bold text-4xl">
               Enter The World Of Hannah Aghedo
             </h2>
@@ -165,7 +165,7 @@ export default function About({ data, services }) {
         <h5 className="text-center text-lg text-rawSienna font-bold">
           I, Hannah Aghedo guarantees the following:
         </h5>
-        <div className="grid grid-cols-1 gap-x-0 md:grid-cols-3 md:gap-x-4">
+        <div className="grid grid-cols-1 gap-x-0 lg:grid-cols-3 lg:gap-x-4">
           <div className="slide rounded-lg shadow-lg">
             <h6 className="text-lg text-black font-bold p-4">
               Ability to meet deadlines

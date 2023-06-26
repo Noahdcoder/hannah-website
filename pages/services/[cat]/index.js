@@ -68,7 +68,7 @@ export default function SingleService({ data, services, nav_links }) {
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <Header data={nav_links} />
-      <div className="grid grid-cols-1 p-8 text-lg md:p-16 md:grid-cols-3">
+      <div className="grid grid-cols-1 p-8 text-lg md:p-16 lg:grid-cols-3">
         <div className="flex flex-col space-y-4 p-4 md:col-span-2">
           <h4 className="text-4xl font-bold">{title}</h4>
           <img className="h-96" src={image} alt={title} />

@@ -96,7 +96,7 @@ export default function Home({ data, services, blogs }) {
       <main className="bg-whiteGray flex flex-col">
         <HomeWelcome />
         <HomeServices services={services} isVisible={isVisible} />
-        <div className="p-8 grid grid-cols-1 gap-8 md:grid-cols-2">
+        <div className="p-8 grid grid-cols-1 gap-8 lg:grid-cols-2">
           <div
             className={`slide grid grid-cols-1 bg-white text-3xl gap-8 p-8 rounded-lg shadow-lg text-rawSienna font-bold ${
               isVisible ? "slide-in-right" : ""
@@ -152,7 +152,7 @@ export default function Home({ data, services, blogs }) {
         </div>
         <div className="p-8 space-y-4">
           <h3 className="text-4xl font-bold text-center">Blogs</h3>
-          <div className="grid grid-cols-1 space-y-8 md:space-y-0 md:space-x-4 md:grid-cols-4">
+          <div className="grid grid-cols-1 space-y-8 md:space-y-0 md:space-x-4 md:grid-cols-2 md:gap-4 lg:grid-cols-4">
             {blogs.map((blog) => {
               const { id, title, image, paragraphs } = blog;
               return (

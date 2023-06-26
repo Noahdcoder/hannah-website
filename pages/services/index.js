@@ -63,7 +63,7 @@ export default function ServicesMain({ data, services }) {
       <Header data={data} />
       <main className="p-8 space-y-4">
         <h1 className="text-center text-3xl font-bold">Services</h1>
-        <div className="grid grid-cols-1 space-y-8 md:space-y-0 md:space-x-4 md:grid-cols-2">
+        <div className="grid grid-cols-1 space-y-8 gap-4 md:space-y-0 md:space-x-4 md:grid-cols-2">
           {services.map((service) => {
             const { id, title, image, paragraphs } = service;
             return (
